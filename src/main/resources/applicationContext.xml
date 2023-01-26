@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--    подгружаем файл со свойствами-->
+    <context:property-placeholder location="sport.properties"/>
+
+    <!--    Определяем бины здесь -->
+
+    <!--    определяем зависимость -->
+    <bean id="myFortuneService" class="ru.stolyarov.springcourse.HappyFortuneService"></bean>
+    <bean id="myCookieFortuneService" class="ru.stolyarov.springcourse.CookieFortuneService"></bean>
+
+    <bean id="myCoach" class="ru.stolyarov.springcourse.TrackCoach">
+        <!--        устанавливаем внедрение в конструктор-->
+        <constructor-arg ref="myFortuneService"/>
+    </bean>
+
+    <bean id="swimmingCoach" class="ru.stolyarov.springcourse.SwimCoach">
+        <!--        устанавливаем внедрение в конструктор-->
+        <constructor-arg ref="myCookieFortuneService"/>
+    </bean>
+
+
+    <bean id="myCricketCoach" class="ru.stolyarov.springcourse.CricketCoach">
+        <!--        устанавливаем внедрение в метод-сеттер-->
+        <property name="fortuneService" ref="myFortuneService"/>
+        <!--        внедрение литералов-->
+        <property name="emailAddress" value="${foo.email}"/>
+        <property name="team" value="${foo.team}"/>
+    </bean>
+</beans>
