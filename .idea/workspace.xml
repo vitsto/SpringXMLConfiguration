@@ -5,28 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="038c89c1-9d01-42aa-b0a7-45b07c396296" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/BaseballCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/Coach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/CookieFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/CricketCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/FortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/HappyFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/HelloSpringApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/MyApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/SetterDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/SwimCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/TrackCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sport.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/BeanLifeCycleDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/BeanScopeDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beanLifeCycle-applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beanScope-applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/TrackCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/TrackCoach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Vitalij/IdeaProjects/udemy-app1/src/main/resources",
+    "last_opened_file_path": "C:/Users/stolyarovv/IdeaProjects/SpringXMLConfiguration/src/main/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -72,10 +56,40 @@
       <recent name="ru.stolyarov.springcourse" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\stolyarovv\IdeaProjects\SpringXMLConfiguration\src\main\resources" />
       <recent name="C:\Users\Vitalij\IdeaProjects\udemy-app1\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.stolyarov.springcourse" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SetterDemoApp">
+  <component name="RunManager" selected="Application.BeanLifeCycleDemoApp">
+    <configuration name="BeanLifeCycleDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.stolyarov.springcourse.BeanLifeCycleDemoApp" />
+      <module name="udemy-app1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stolyarov.springcourse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanScopeDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.stolyarov.springcourse.BeanScopeDemoApp" />
+      <module name="udemy-app1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stolyarov.springcourse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloSpringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stolyarov.springcourse.HelloSpringApp" />
       <module name="udemy-app1" />
@@ -104,6 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BeanLifeCycleDemoApp" />
+        <item itemvalue="Application.BeanScopeDemoApp" />
         <item itemvalue="Application.SetterDemoApp" />
         <item itemvalue="Application.HelloSpringApp" />
       </list>
@@ -120,6 +136,7 @@
       <workItem from="1674649821792" duration="821000" />
       <workItem from="1674650656398" duration="2531000" />
       <workItem from="1674734354799" duration="2633000" />
+      <workItem from="1674782196170" duration="3284000" />
     </task>
     <servers />
   </component>
